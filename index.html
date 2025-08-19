@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff2d20">
+    <meta name="color-scheme" content="dark light">
+    <title>Ermias Mekonnen - Backend Developer & Microservices Architect</title>
+    <meta name="description" content="Backend developer specializing in NestJS, Laravel, and microservices architecture. Expert in building scalable APIs and distributed systems.">
+    <meta name="keywords" content="Backend Developer, NestJS, Laravel, Microservices, API Development, Node.js, PHP">
+    <meta name="author" content="Ermias Mekonnen">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ermias.dev/">
+    <meta property="og:title" content="Ermias Mekonnen - Backend Developer">
+    <meta property="og:description" content="Backend developer specializing in NestJS, Laravel, and microservices architecture.">
+    <meta property="og:image" content="/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ermias.dev/">
+    <meta property="twitter:title" content="Ermias Mekonnen - Backend Developer">
+    <meta property="twitter:description" content="Backend developer specializing in NestJS, Laravel, and microservices architecture.">
+    <meta property="twitter:image" content="/twitter-image.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ermias Mekonnen",
+      "jobTitle": "Backend Developer",
+      "description": "Backend developer specializing in NestJS, Laravel, and microservices architecture",
+      "url": "https://ermias.dev",
+      "sameAs": [
+        "https://linkedin.com/in/ermias-mekonnen",
+        "https://github.com/ermimak"
+      ],
+      "knowsAbout": ["NestJS", "Laravel", "Microservices", "Node.js", "PHP", "PostgreSQL", "Docker"]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot aria-hidden="true"></div>
+    <div class="cursor-outline" data-cursor-outline aria-hidden="true"></div>
+    
+    <!-- Floating Language Icons -->
+    <div class="floating-icons" aria-hidden="true">
+        <i class="floating-icon fab fa-node-js" style="color: #68a063;"></i>
+        <i class="floating-icon fab fa-php" style="color: #777bb4;"></i>
+        <i class="floating-icon fab fa-js-square" style="color: #f7df1e;"></i>
+        <i class="floating-icon fab fa-docker" style="color: #2496ed;"></i>
+        <i class="floating-icon fab fa-aws" style="color: #ff9900;"></i>
+        <i class="floating-icon fas fa-database" style="color: #336791;"></i>
+        <i class="floating-icon fab fa-git-alt" style="color: #f05032;"></i>
+        <i class="floating-icon fab fa-laravel" style="color: #ff2d20;"></i>
+        <i class="floating-icon fas fa-server" style="color: #68a063;"></i>
+        <i class="floating-icon fab fa-react" style="color: #61dafb;"></i>
+    </div>
+    
+    <!-- App Layout Container -->
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="brand">
+                    <span class="brand-icon">{ }</span>
+                    <div class="brand-text">
+                        <span class="brand-name">ermias</span>
+                        <span class="brand-domain">.dev</span>
+                    </div>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <nav class="sidebar-nav" role="navigation" aria-label="Main navigation">
+                <div class="nav-section">
+                    <span class="nav-section-title">Navigation</span>
+                    <ul class="nav-list">
+                        <li><a href="#hero" class="nav-item active"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#about" class="nav-item"><i class="fas fa-user"></i>About</a></li>
+                        <li><a href="#experience" class="nav-item"><i class="fas fa-briefcase"></i>Experience</a></li>
+                        <li><a href="#projects" class="nav-item"><i class="fas fa-code"></i>Projects</a></li>
+                        <li><a href="#skills" class="nav-item"><i class="fas fa-tools"></i>Skills</a></li>
+                        <li><a href="#contact" class="nav-item"><i class="fas fa-envelope"></i>Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <span class="nav-section-title">Quick Links</span>
+                    <ul class="nav-list">
+                        <li><a href="https://github.com/ermimak" class="nav-item" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/ermias-mekonnen" class="nav-item" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                        <li><a href="mailto:ermiasmekonnen28@gmail.com" class="nav-item"><i class="fas fa-envelope"></i>Email</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <span>Dark Mode</span>
+                </button>
+            </div>
+        </aside>
+        
+        <!-- Mobile Header -->
+        <header class="mobile-header">
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="mobile-brand">
+                <span class="brand-name">ermias</span><span class="brand-domain">.dev</span>
+            </div>
+            <button class="mobile-theme-toggle" id="mobile-theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content" id="main-content">
+            <!-- Hero Section -->
+            <section id="hero" class="section hero-section">
+                <div class="section-grid">
+                    <div class="hero-content">
+                        <div class="status-badge">
+                            <div class="status-dot"></div>
+                            <span>Available for work</span>
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            <span class="title-line">Backend</span>
+                            <span class="title-line highlight">Developer</span>
+                        </h1>
+                        
+                        <div class="hero-subtitle">
+                            <span class="typing-text" id="typing-text">Building scalable microservices</span>
+                            <span class="cursor">|</span>
+                        </div>
+                        
+                        <p class="hero-description">
+                            Specialized in <strong>NestJS</strong> and <strong>Laravel</strong> ecosystems, 
+                            architecting distributed systems that handle millions of requests with 
+                            <strong>99.9% uptime</strong>.
+                        </p>
+                        
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">APIs Built</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Microservices</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Let's Talk</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#projects" class="btn btn-outline">
+                                <span>View Work</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-controls">
+                                    <span class="control close"></span>
+                                    <span class="control minimize"></span>
+                                    <span class="control maximize"></span>
+                                </div>
+                                <div class="terminal-title">~/projects/microservices</div>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span>
+                                    <span class="command">docker-compose up -d</span>
+                                </div>
+                                <div class="terminal-line output">
+                                    <span class="service-status success">✓ user-service</span>
+                                    <span class="service-status success">✓ order-service</span>
+                                    <span class="service-status success">✓ payment-service</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span>
+                                    <span class="command cursor-blink">kubectl get pods</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-cards">
+                            <div class="tech-card nestjs">
+                                <i class="fab fa-node-js"></i>
+                                <span>NestJS</span>
+                            </div>
+                            <div class="tech-card laravel">
+                                <i class="fab fa-laravel"></i>
+                                <span>Laravel</span>
+                            </div>
+                            <div class="tech-card docker">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section about-section">
+                <div class="section-header">
+                    <div class="section-badge">About</div>
+                    <h2 class="section-title">Crafting Backend Excellence</h2>
+                    <p class="section-subtitle">Turning complex problems into elegant, scalable solutions</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card main-card">
+                        <div class="card-header">
+                            <div class="avatar">
+                                <div class="avatar-inner">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h3>Ermias Mekonnen</h3>
+                                <p>Senior Backend Developer</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <p>
+                                I architect and build <strong>enterprise-grade backend systems</strong> that power 
+                                modern applications. My expertise spans <strong>microservices architecture</strong>, 
+                                <strong>API design</strong>, and <strong>distributed systems</strong> that handle 
+                                millions of requests daily.
+                            </p>
+                            
+                            <div class="expertise-tags">
+                                <span class="tag">Domain-Driven Design</span>
+                                <span class="tag">Event-Driven Architecture</span>
+                                <span class="tag">CQRS Patterns</span>
+                                <span class="tag">Microservices</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-card info-card">
+                        <div class="card-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
+                        </div>
+                        <p>Addis Ababa, Ethiopia</p>
+                        <small>Available for remote work globally</small>
+                    </div>
+                    
+                    <div class="about-card info-card">
+                        <div class="card-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                        </div>
+                        <p>BSc Computer Science</p>
+                        <small>Adama Science & Technology University</small>
+                    </div>
+                    
+                    <div class="about-card info-card">
+                        <div class="card-header">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Achievement</h4>
+                        </div>
+                        <p>Top 10 Senior Projects</p>
+                        <small>University recognition</small>
+                    </div>
+                    
+                    <div class="about-card metrics-card">
+                        <div class="card-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Impact Metrics</h4>
+                        </div>
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <span class="metric-value">99.9%</span>
+                                <span class="metric-label">Uptime</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">&lt;50ms</span>
+                                <span class="metric-label">Response Time</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">1M+</span>
+                                <span class="metric-label">Daily Requests</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">15+</span>
+                                <span class="metric-label">Services Built</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section experience-section">
+                <div class="section-header">
+                    <div class="section-badge">Experience</div>
+                    <h2 class="section-title">Professional Journey</h2>
+                    <p class="section-subtitle">Building scalable backend systems across different organizations</p>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-card current">
+                        <div class="card-header">
+                            <div class="company-logo">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Backend Web Developer & Researcher</h3>
+                                <p>Ethiopia Artificial Intelligence Institute</p>
+                                <time datetime="2022-09">Sep 2022 - Present</time>
+                            </div>
+                            <div class="status-badge current">Current</div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <ul class="achievements">
+                                <li>Architect and develop microservices-based backend systems serving thousands of concurrent users</li>
+                                <li>Build scalable REST APIs using NestJS and Laravel with comprehensive documentation using Swagger</li>
+                                <li>Implement event-driven architecture with RabbitMQ for inter-service communication</li>
+                                <li>Deploy containerized applications using Docker and orchestrate with Kubernetes</li>
+                            </ul>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag primary">NestJS</span>
+                                <span class="tech-tag primary">Laravel</span>
+                                <span class="tech-tag">Microservices</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="company-logo">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Freelance Web Developer</h3>
+                                <p>Upwork | Remote</p>
+                                <time datetime="2021-08">Aug 2021 - Present</time>
+                            </div>
+                            <div class="status-badge active">Active</div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <ul class="achievements">
+                                <li>Developed 10+ backend systems and APIs earning 5-star reviews from clients</li>
+                                <li>Built high-performance microservices using NestJS with TypeScript for type safety</li>
+                                <li>Implemented caching strategies with Redis achieving 40% performance improvement</li>
+                                <li>Designed database schemas and optimized queries for PostgreSQL and MongoDB</li>
+                            </ul>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag primary">NestJS</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="company-logo">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Software Development Engineering Intern</h3>
+                                <p>Dallol Tech Ltd</p>
+                                <time datetime="2018-10/2019-01">Oct 2018 - Jan 2019</time>
+                            </div>
+                            <div class="status-badge completed">Completed</div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <ul class="achievements">
+                                <li>Developed backend services using Laravel with focus on API design and database optimization</li>
+                                <li>Implemented JWT-based authentication and role-based authorization systems</li>
+                                <li>Built payment processing microservices with third-party API integrations</li>
+                                <li>Applied Domain-Driven Design principles for maintainable code architecture</li>
+                            </ul>
+                            
+                            <div class="tech-stack">
+                                <span class="tech-tag primary">Laravel</span>
+                                <span class="tech-tag">JWT Auth</span>
+                                <span class="tech-tag">DDD</span>
+                                <span class="tech-tag">API Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section education-section">
+                <div class="section-header">
+                    <div class="section-badge">Education</div>
+                    <h2 class="section-title">Education & Certifications</h2>
+                    <p class="section-subtitle">My academic foundation and continuous learning journey</p>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card featured">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="education-meta">
+                                <h3 class="education-title">BSc Computer Science and Engineering</h3>
+                                <div class="education-school">Adama Science and Technology University</div>
+                                <div class="education-period">Sept 2016 - July 2020</div>
+                                <div class="education-gpa">Major GPA: 3.49/4.0</div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-content">
+                            <div class="education-subjects">
+                                <span class="subject">Operating Systems</span>
+                                <span class="subject">Full-stack Development</span>
+                                <span class="subject">Software Project Management</span>
+                                <span class="subject">OOP</span>
+                                <span class="subject">Data Structures & Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="education-meta">
+                                <h3 class="education-title">Building Web Applications in PHP</h3>
+                                <div class="education-school">Coursera</div>
+                                <div class="education-period">January 2018 - May 2019</div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-content">
+                            <p class="education-description">
+                                Comprehensive PHP course covering syntax, data structures, variables, 
+                                logic, iteration, arrays, error handling, and integrated PHP/MySQL environment.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="education-meta">
+                                <h3 class="education-title">Competitive Programming</h3>
+                                <div class="education-school">Ethiopian Collegiate Programming Contest (EtCPC)</div>
+                                <div class="education-period">Jan 2018 - Aug 2020</div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-content">
+                            <p class="education-description">
+                                Participated in ICPC-affiliated programming contests, competing in teams 
+                                of three from universities across Ethiopia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section projects-section">
+                <div class="section-header">
+                    <div class="section-badge">Projects</div>
+                    <h2 class="section-title">Backend Systems</h2>
+                    <p class="section-subtitle">Scalable microservices and APIs I've architected and built</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">E-commerce Microservices Platform</h3>
+                                <div class="project-status production">Production</div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p class="project-description">
+                                Built a complete microservices architecture handling 10K+ daily transactions. 
+                                Implemented user management, order processing, payment gateway, and inventory services.
+                            </p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">99.9%</span>
+                                    <span class="metric-label">Uptime</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">50ms</span>
+                                    <span class="metric-label">Avg Response</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">4</span>
+                                    <span class="metric-label">Services</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag primary">NestJS</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">RabbitMQ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">AI Management System API</h3>
+                                <div class="project-status active">Active</div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p class="project-description">
+                                Developed robust backend APIs for AI model management and training workflows. 
+                                Handles large dataset processing and model deployment automation.
+                            </p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">1000+</span>
+                                    <span class="metric-label">Users</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">5TB</span>
+                                    <span class="metric-label">Data Processed</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Laravel</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Real-time Chat System</h3>
+                                <div class="project-status completed">Completed</div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p class="project-description">
+                                Engineered a scalable real-time messaging platform with WebSocket connections, 
+                                message queuing, and horizontal scaling capabilities.
+                            </p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">500+</span>
+                                    <span class="metric-label">Concurrent Users</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">10ms</span>
+                                    <span class="metric-label">Message Latency</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag primary">NestJS</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Redis</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Authentication Microservice</h3>
+                                <div class="project-status opensource">Open Source</div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p class="project-description">
+                                Open-source authentication service with JWT tokens, OAuth2 integration, 
+                                and comprehensive security features for microservices architecture.
+                            </p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">250+</span>
+                                    <span class="metric-label">GitHub Stars</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">15</span>
+                                    <span class="metric-label">Contributors</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag primary">Laravel</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">OAuth2</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section skills-section">
+                <div class="section-header">
+                    <div class="section-badge">Skills</div>
+                    <h2 class="section-title">Backend Technologies</h2>
+                    <p class="section-subtitle">My expertise in building scalable microservices and distributed systems</p>
+                </div>
+            
+                <!-- Architecture Overview -->
+                <div class="architecture-showcase">
+                    <div class="architecture-card">
+                        <div class="architecture-header">
+                            <div class="architecture-icon">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <h3>Microservices Architecture</h3>
+                        </div>
+                        <div class="architecture-flow">
+                            <div class="flow-layer">
+                                <div class="flow-node gateway">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>API Gateway</span>
+                                </div>
+                            </div>
+                            <div class="flow-arrows">
+                                <i class="fas fa-arrow-down"></i>
+                                <i class="fas fa-arrow-down"></i>
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                            <div class="flow-layer services">
+                                <div class="flow-node">
+                                    <i class="fas fa-user"></i>
+                                    <span>Users</span>
+                                </div>
+                                <div class="flow-node">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>Orders</span>
+                                </div>
+                                <div class="flow-node">
+                                    <i class="fas fa-credit-card"></i>
+                                    <span>Payments</span>
+                                </div>
+                            </div>
+                            <div class="flow-arrows">
+                                <i class="fas fa-arrow-down"></i>
+                                <i class="fas fa-arrow-down"></i>
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                            <div class="flow-layer data">
+                                <div class="flow-node database">
+                                    <i class="fas fa-database"></i>
+                                    <span>PostgreSQL</span>
+                                </div>
+                                <div class="flow-node cache">
+                                    <i class="fas fa-memory"></i>
+                                    <span>Redis</span>
+                                </div>
+                                <div class="flow-node queue">
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span>RabbitMQ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skills Grid -->
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="category-title">Backend Frameworks</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item primary">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">NestJS</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item primary">
+                                <div class="skill-icon">
+                                    <i class="fab fa-laravel"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Laravel</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <h3 class="category-title">Architecture Patterns</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cubes"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Microservices</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Domain-Driven Design</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Event Sourcing</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-sitemap"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CQRS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 class="category-title">Databases & Storage</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-memory"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Redis</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <h3 class="category-title">DevOps & Cloud</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-dharmachakra"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Kubernetes</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CI/CD</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <h3 class="category-title">APIs & Messaging</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">RabbitMQ</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Apache Kafka</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">REST APIs</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">GraphQL</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-vial"></i>
+                            </div>
+                            <h3 class="category-title">Testing & Monitoring</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-vial"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Jest</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-bug"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">PHPUnit</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Monitoring</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Logging</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section contact-section">
+                <div class="section-header">
+                    <div class="section-badge">Contact</div>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's build something amazing together</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <div class="contact-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <h3>Ready to collaborate?</h3>
+                                <p>Let's discuss your next backend project</p>
+                            </div>
+                            
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Email</span>
+                                        <a href="mailto:ermiasmekonnen28@gmail.com" class="method-value">ermiasmekonnen28@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Phone</span>
+                                        <a href="tel:+251969109550" class="method-value">+251 969109550</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-method">
+                                    <div class="method-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="method-info">
+                                        <span class="method-label">Location</span>
+                                        <span class="method-value">Addis Ababa, Ethiopia</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="availability-status">
+                                <div class="status-indicator available"></div>
+                                <span>Available for new projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <div class="form-card">
+                            <div class="form-header">
+                                <h3>Send a Message</h3>
+                                <p>Tell me about your project requirements</p>
+                            </div>
+                            
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Project Type</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Select project type</option>
+                                        <option value="microservices">Microservices Architecture</option>
+                                        <option value="api-development">API Development</option>
+                                        <option value="system-design">System Design & Consultation</option>
+                                        <option value="performance">Performance Optimization</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Project Details</label>
+                                    <textarea id="message" name="message" placeholder="Describe your project requirements, timeline, and any specific technologies you'd like to use..." rows="6" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>Send Message</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-main">
+                        <div class="footer-brand">
+                            <h3>Ermias Mekonnen</h3>
+                            <p>Backend Developer & System Architect</p>
+                        </div>
+                        
+                        <div class="footer-links">
+                            <div class="link-group">
+                                <h4>Services</h4>
+                                <ul>
+                                    <li><a href="#projects">Microservices</a></li>
+                                    <li><a href="#projects">API Development</a></li>
+                                    <li><a href="#projects">System Design</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="link-group">
+                                <h4>Technologies</h4>
+                                <ul>
+                                    <li><a href="#skills">NestJS</a></li>
+                                    <li><a href="#skills">Laravel</a></li>
+                                    <li><a href="#skills">Docker & K8s</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="link-group">
+                                <h4>Connect</h4>
+                                <div class="social-links">
+                                    <a href="mailto:ermiasmekonnen28@gmail.com" class="social-link" title="Email">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a href="https://linkedin.com/in/ermias-mekonnen" class="social-link" title="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://github.com/ermimak" class="social-link" title="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Ermias Mekonnen. All rights reserved.</p>
+                        <p>Built with modern web technologies</p>
+                    </div>
+                </div>
+            </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
